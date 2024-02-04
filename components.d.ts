@@ -15,9 +15,11 @@ declare module 'vue' {
     AForm: typeof import('ant-design-vue/es')['Form']
     AFormItem: typeof import('ant-design-vue/es')['FormItem']
     AImage: typeof import('ant-design-vue/es')['Image']
+    AInputNumber: typeof import('ant-design-vue/es')['InputNumber']
     ASelect: typeof import('ant-design-vue/es')['Select']
     ASkeletonImage: typeof import('ant-design-vue/es')['SkeletonImage']
     ASpace: typeof import('ant-design-vue/es')['Space']
+    ConvertUnit: typeof import('./src/components/ConvertUnit.vue')['default']
     ImageMng: typeof import('./src/components/ImageMng.vue')['default']
   }
 }
