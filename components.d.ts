@@ -16,6 +16,7 @@ declare module 'vue' {
     AFormItem: typeof import('ant-design-vue/es')['FormItem']
     AImage: typeof import('ant-design-vue/es')['Image']
     AInputNumber: typeof import('ant-design-vue/es')['InputNumber']
+    ASegmented: typeof import('ant-design-vue/es')['Segmented']
     ASelect: typeof import('ant-design-vue/es')['Select']
     ASkeletonImage: typeof import('ant-design-vue/es')['SkeletonImage']
     ASpace: typeof import('ant-design-vue/es')['Space']
