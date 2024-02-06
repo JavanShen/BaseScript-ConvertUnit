@@ -26,8 +26,8 @@ const definetions = {
         en: 'temperature',
         zh: '温度',
         data: {
-            tmetric,
-            timperial
+            ...tmetric,
+            ...timperial
         }
     },
     digital: {
